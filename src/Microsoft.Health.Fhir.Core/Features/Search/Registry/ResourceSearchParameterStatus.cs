@@ -15,6 +15,8 @@ namespace Microsoft.Health.Fhir.Core.Features.Search.Registry
 
         public bool IsPartiallySupported { get; set; }
 
+        public SortParameterStatus SortStatus { get; set; }
+
         public DateTimeOffset LastUpdated { get; set; }
     }
 }
